@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" data-base="/mississippi-eats">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-YfPxYBJDc639ac4gHFGjFpJLVatKf6JcrBZeF/tuACM='; style-src 'sha256-dqvmayihWROQEZ8wSzEgp/mdr3jLDL36VzBbUhHv/y0='; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mississippi Eats: Tamales, Catfish &amp; Mississippi Restaurants</title>
+<meta name="description" content="Delta hot tamales, catfish houses, po&#x27;boys and plate lunches: a free iPhone and iPad guide to 7,362 Mississippi restaurants, with MICHELIN honors.">
+<link rel="canonical" href="https://nickstrom5.github.io/mississippi-eats/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#2e5e3e">
+<!-- Smart App Banner: once the App Store Connect record exists, replace APP_ID with the numeric Apple ID and uncomment.
+<meta name="apple-itunes-app" content="app-id=APP_ID">
+-->
+<meta property="og:title" content="Mississippi Eats: Tamales, Catfish &amp; Mississippi Restaurants">
+<meta property="og:description" content="Delta hot tamales, catfish houses, po&#x27;boys and plate lunches: a free iPhone and iPad guide to 7,362 Mississippi restaurants, with MICHELIN honors.">
+<meta property="og:url" content="https://nickstrom5.github.io/mississippi-eats/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Mississippi Eats">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://nickstrom5.github.io/mississippi-eats/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mississippi Eats: Tamales, catfish &amp; Gulf seafood. Mississippi restaurants, with hand-checked hot tamales, catfish houses, po&#x27;boys and plate lunches.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mississippi Eats: Tamales, Catfish &amp; Mississippi Restaurants">
+<meta name="twitter:description" content="Delta hot tamales, catfish houses, po&#x27;boys and plate lunches: a free iPhone and iPad guide to 7,362 Mississippi restaurants, with MICHELIN honors.">
+<meta name="twitter:image" content="https://nickstrom5.github.io/mississippi-eats/og.png">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2300205B'/%3E%3Cpath d='M23.18 15.28A16.32 16.32 0 1 0 45.13 37.23' fill='none' stroke='%23F08A5D' stroke-width='10.24' stroke-linecap='round'/%3E%3Cpath d='M18.27 27.87L10.68 26.67' stroke='%23D9663A' stroke-width='2.24' stroke-linecap='round'/%3E%3Cpath d='M20.5 37.16L14.28 41.67' stroke='%23D9663A' stroke-width='2.24' stroke-linecap='round'/%3E%3Cpath d='M28.64 42.15L27.44 49.74' stroke='%23D9663A' stroke-width='2.24' stroke-linecap='round'/%3E%3Cpolygon points='43.85,37.23 53.45,43.63 54.09,33.39' fill='%23E46E43'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="/mississippi-eats/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/mississippi-eats/apple-touch-icon.png">
+<link rel="manifest" href="/mississippi-eats/site.webmanifest">
+<style>
+  :root {
+    --bg: #f6f1e4; --surface: #fff; --surface2: #f1ecdf; --rule: #e4ded0;
+    --ink: #1e1e1e; --ink2: #2e3440; --muted: #5b6270;
+    --accent: #00205b; --accent2: #23407a; --on-accent: #fff; --orange: #bf0a30; --on-orange: #fff; --lime: #c9a84c; --soft: #f8dce1; --limesoft: #f3e9c8;
+    --focus: #bf0a30;
+    --radius: 16px;
+    --display: "Avenir Next Condensed", "Helvetica Neue Condensed", "Roboto Condensed", "Arial Narrow", system-ui, sans-serif;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121212; --surface: #1c1c1c; --surface2: #242424; --rule: #343434; --ink: #f4f4f4; --ink2: #dadada; --muted: #b0b0b0; --accent: #c9a84c; --accent2: #dcc06e; --on-accent: #121212; --focus: #c9a84c; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  a:focus-visible, summary:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+  .skip { position: absolute; left: -9999px; top: 0; background: var(--orange); color: var(--on-orange); padding: 10px 14px; font-weight: 700; z-index: 10; }
+  .skip:focus { left: 8px; top: 8px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+  header.site { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 0 14px; }
+  .stripes { display: block; margin: 0 0 4px; border-radius: 4px; overflow: hidden; line-height: 0; }
+  .stripes svg { display: block; width: 100%; height: 24px; }
+  .logo { display: flex; align-items: center; gap: 10px; font: 800 24px/1 var(--display); text-transform: uppercase; letter-spacing: .01em; color: var(--accent); text-decoration: none; }
+  .logo svg { flex: 0 0 auto; border-radius: 7px; }
+  header.site nav { display: flex; flex-wrap: wrap; gap: 4px 16px; justify-content: flex-end; }
+  header.site nav a { color: var(--ink2); text-decoration: none; font-size: 15px; }
+  header.site nav a:hover { color: var(--accent); text-decoration: underline; }
+  h1, h2 { font-family: var(--display); font-weight: 800; color: var(--accent); letter-spacing: -.005em; }
+  h1 { font-size: clamp(40px, 8.5vw, 64px); line-height: .95; margin: 0 0 18px; text-transform: uppercase; overflow-wrap: break-word; text-shadow: 3px 3px 0 var(--orange); }
+  .kicker { font: 600 13px/1.4 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--accent); margin: 0 0 12px; }
+  .kicker::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--orange); margin: 0 8px 1px 0; }
+  h2 { font-size: 34px; line-height: 1.02; margin: 0 0 10px; text-transform: uppercase; }
+  h3 { font-size: 18px; margin: 0; line-height: 1.3; }
+  .lede { font-size: 19px; color: var(--ink2); margin: 0 0 26px; }
+  .hero { padding: 44px 0 28px; }
+  section { padding: 36px 0; border-top: 1px solid var(--rule); }
+  section.hero { border: 0; }
+  .sub { color: var(--ink2); margin: 0 0 22px; }
+  .cta-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .btn { display: inline-flex; align-items: center; gap: 10px; background: var(--orange); color: var(--on-orange); font-weight: 700; padding: 14px 20px; border-radius: 14px; text-decoration: none; font-size: 17px; }
+  .btn-ghost { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+  .pill { font-size: 14px; color: var(--muted); }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 28px 0 0; padding: 0; list-style: none; }
+  .stats li { background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 14px; }
+  .stats b { display: block; font: 600 28px/1 var(--mono); color: var(--accent); }
+  .stats span { font-size: 14px; color: var(--muted); }
+  .steps { display: grid; gap: 12px; list-style: none; margin: 0; padding: 0; }
+  .step { display: flex; gap: 14px; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; }
+  .step .n { flex: 0 0 32px; height: 32px; border-radius: 50%; background: var(--orange); color: var(--on-orange); font-weight: 800; display: grid; place-items: center; }
+  .step p { margin: 4px 0 0; color: var(--ink2); }
+  .shots { display: flex; gap: 14px; overflow-x: auto; margin: 0 -20px; padding: 4px 20px 14px; scroll-snap-type: x proximity; list-style: none; }
+  .shots li { flex: 0 0 auto; width: 210px; scroll-snap-align: start; }
+  .shots img { display: block; width: 210px; height: auto; border-radius: 24px; border: 1px solid var(--rule); background: var(--surface2); }
+  .shots p { font-size: 14px; color: var(--muted); margin: 8px 2px 0; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .card { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; }
+  .card h3 { font: 800 21px/1.1 var(--display); text-transform: uppercase; letter-spacing: .01em; }
+  a.card.gc { display: flex; flex-direction: column; gap: 6px; border: 0; border-radius: 18px; min-height: 150px; }
+  a.card.gc b { font: 600 32px/1 var(--mono); margin-bottom: auto; }
+  a.card.gc p, a.card.gc h3 { color: inherit; }
+  a.card.gc p { opacity: .92; }
+  a.card.gc { background: #bf0a30; color: #fff; }
+  a.card.gc.gc-oldest, a.card.gc.gc-honors { background: #00205b; color: #fff; }
+  .card p { margin: 6px 0 0; color: var(--ink2); }
+  a.card { display: block; text-decoration: none; color: var(--ink); }
+  a.card:hover h3 { text-decoration: underline; color: var(--accent); }
+  .cities { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 0; }
+  .cities a { display: inline-block; padding: 8px 12px; border-radius: 999px; border: 1px solid var(--rule); background: var(--surface); text-decoration: none; color: var(--ink); font-size: 15px; }
+  .cities a:hover { border-color: var(--accent); }
+  .cities a[aria-current] { border-color: var(--accent); font-weight: 700; }
+  details { background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 2px 18px; margin-bottom: 10px; }
+  summary { cursor: pointer; padding: 14px 0; font-weight: 600; list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; color: var(--accent); font-weight: 800; }
+  details[open] summary::after { content: "\2013"; }
+  details p { margin: 0 0 16px; color: var(--ink2); }
+  .final { text-align: center; }
+  .final .cta-row { justify-content: center; }
+  nav.crumbs { font-size: 14px; color: var(--muted); padding: 16px 0 0; }
+  nav.crumbs ol { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  nav.crumbs li + li::before { content: "/"; margin-right: 6px; color: var(--rule); }
+  nav.crumbs a { color: var(--muted); }
+  .places { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .places li { background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 14px 16px; min-width: 0; overflow-wrap: anywhere; scroll-margin-top: 12px; }
+  .places li:target { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+  .places .where { margin: 2px 0 0; font-size: 15px; color: var(--muted); }
+  .places .facts { margin: 8px 0 0; font-size: 15px; color: var(--ink2); }
+  .places .facts b { color: var(--ink); font-weight: 600; }
+  .places .note { margin: 6px 0 0; font-size: 15px; color: var(--ink2); }
+  .places .fine { margin: 6px 0 0; }
+  .places .link { font-size: 14px; margin: 6px 0 0; }
+  .tag { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; background: var(--soft); color: #7a0820; border-radius: 6px; padding: 1px 6px; margin: 0 4px 2px 0; }
+  .tag-mi { background: #1b2f5e; color: #fff; }
+  .tag-jb { background: #00205b; color: #fff; }
+  .tag-plain { background: #efeadf; color: #18231f; }
+  .toc { columns: 2; padding-left: 20px; margin: 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .tbl { overflow-x: auto; }
+  .res { display: inline-block; font: 800 12px/1.4 -apple-system, system-ui, sans-serif; letter-spacing: .04em; text-transform: uppercase; padding: 2px 6px; border-radius: 6px; }
+  .res-ok { background: #ddefe3; color: #0e5a2b; } .res-mid { background: #ffe9c2; color: #6b3a00; } .res-low { background: #f9d5db; color: #7a0019; }
+  .groups { list-style: none; padding: 0; margin: 0 0 18px; display: grid; gap: 12px; }
+  .groups > li { background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 14px 16px; }
+  .groups ul { margin: 8px 0 0; padding-left: 20px; color: var(--ink2); font-size: 15px; }
+  .groups .count { margin: 8px 0 0; font-weight: 600; }
+  .fine { font-size: 14px; color: var(--muted); }
+  .legal h2 { font-size: 26px; margin-top: 28px; }
+  .legal p, .legal li { color: var(--ink2); }
+  footer { padding: 32px 0 56px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--rule); margin-top: 20px; }
+  footer nav { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+  footer a { color: var(--muted); }
+  footer p { margin: 12px 0 0; }
+  @media (max-width: 600px) {
+    .grid2 { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: 1fr 1fr; }
+    .toc { columns: 1; }
+    .toc a { display: inline-block; padding: 3px 0; }
+    header.site { flex-direction: column; align-items: flex-start; }
+    header.site nav { justify-content: flex-start; }
+    header.site nav a, footer nav a, nav.crumbs a { display: inline-block; padding: 10px 0; }
+    footer nav { gap: 0 18px; }
+    th, td { padding: 8px 4px; font-size: 14px; }
+    .tbl th, .tbl td { padding: 8px 3px; font-size: 13px; }
+    .res { font-size: 11px; letter-spacing: .02em; padding: 2px 4px; }
+    nav.crumbs ol { align-items: center; }
+  }
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MobileApplication",
+   "@id": "https://nickstrom5.github.io/mississippi-eats/#app",
+   "name": "Mississippi Eats: Restaurants",
+   "alternateName": [
+    "Mississippi Eats",
+    "Mississippi Eats: Tamales, Catfish \u0026 Gulf Seafood"
+   ],
+   "description": "A free guide to 7,362 Mississippi restaurants, with hand-checked lists of Delta hot tamales, catfish houses, po'boys and Gulf oysters, plate lunches and fried chicken, and comeback sauce, and 14 MICHELIN and James Beard honorees. Sort by distance, open Apple Maps' live card for hours and photos, and save places on your phone.",
+   "url": "https://nickstrom5.github.io/mississippi-eats/",
+   "image": "https://nickstrom5.github.io/mississippi-eats/og.png",
+   "operatingSystem": "iOS, iPadOS",
+   "applicationCategory": "TravelApplication",
+   "applicationSubCategory": "Food \u0026 Drink",
+   "inLanguage": "en",
+   "publisher": {
+    "@id": "https://nickstrom5.github.io/mississippi-eats/#org"
+   },
+   "screenshot": "https://nickstrom5.github.io/mississippi-eats/img/screen-home.png"
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://nickstrom5.github.io/mississippi-eats/#org",
+   "name": "Mississippi Eats",
+   "url": "https://nickstrom5.github.io/mississippi-eats/",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://nickstrom5.github.io/mississippi-eats/icon-512.png",
+    "width": 512,
+    "height": 512
+   },
+   "email": "nick@eatsranked.com",
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "email": "nick@eatsranked.com",
+    "availableLanguage": "en"
+   },
+   "parentOrganization": {
+    "@type": "Organization",
+    "@id": "https://eatsranked.com/#organization",
+    "name": "Eats Ranked",
+    "url": "https://eatsranked.com/"
+   }
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://nickstrom5.github.io/mississippi-eats/#website",
+   "name": "Mississippi Eats",
+   "alternateName": [
+    "Mississippi Eats app"
+   ],
+   "url": "https://nickstrom5.github.io/mississippi-eats/",
+   "inLanguage": "en",
+   "publisher": {
+    "@id": "https://nickstrom5.github.io/mississippi-eats/#org"
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "@id": "https://nickstrom5.github.io/mississippi-eats/#faq",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is Mississippi Eats free?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Completely: no price, no ads, no in-app purchases and no account to create. It's an iPhone and iPad app on its way to the App Store, with no Android version yet; until it's out, the web search here works in any browser."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Where do the lists come from?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Two kinds of source. The hot tamale, catfish, po'boy, plate lunch, comeback sauce and oldest-places lists are our own research from fall 2026, with a 2025 or 2026 source behind each place: Visit Mississippi's own pages, the MICHELIN Guide or a dated local story. The wider directory of 7,362 restaurants starts from open map listings (Overture Maps), filtered to the kinds that matched an inspected business most often in MSDH's records."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Where are the Delta hot tamales?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Our tamale list has 9 hand-checked places, from Doe's Eat Place in Greenville, a James Beard America's Classic, to Hicks' in Clarksdale, Solly's in Vicksburg and Fat Mama's in Natchez."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How do I check a Mississippi restaurant's inspection grade?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "The Mississippi State Department of Health grades every inspection A, B or C and posts the grade in the restaurant. The app shows MSDH's latest grade on each place it matches, dated and labeled as MSDH's own; it computes no grade. MSDH's food facility search has every inspection."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it show which places serve alcohol?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. The Department of Revenue's alcohol permits are only searchable, and many counties and towns are dry or partly dry, so the app doesn't say either way."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it show ratings and reviews?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Not from us. Tapping a place opens Apple Maps' own card inside the app, with Apple's current ratings, hours, photos and directions. None of our lists is sorted by anyone's rating."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it need my location?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. Location only matters for putting the nearest places first. If you share it, it stays on your iPhone or iPad and never reaches us, and the app works fine without it. On this website, Near me reads your location inside your browser and nowhere else."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "A place has closed, or something's wrong. How do I tell you?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Write to nick@eatsranked.com with the place's name, its town and what changed. Corrections ship with the next data update."
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+  <header class="site">
+    <a class="logo" href="/mississippi-eats/" aria-label="Mississippi Eats home"><svg viewBox="0 0 64 64" width="30" height="30" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#00205B"/><path d="M23.18 15.28A16.32 16.32 0 1 0 45.13 37.23" fill="none" stroke="#F08A5D" stroke-width="10.24" stroke-linecap="round"/><path d="M18.27 27.87L10.68 26.67" stroke="#D9663A" stroke-width="2.24" stroke-linecap="round"/><path d="M20.5 37.16L14.28 41.67" stroke="#D9663A" stroke-width="2.24" stroke-linecap="round"/><path d="M28.64 42.15L27.44 49.74" stroke="#D9663A" stroke-width="2.24" stroke-linecap="round"/><polygon points="43.85,37.23 53.45,43.63 54.09,33.39" fill="#E46E43"/></svg>Mississippi Eats</a>
+    <nav aria-label="Main">
+      <a href="/mississippi-eats/mississippi-hot-tamales.html">Tamales</a>
+      <a href="/mississippi-eats/mississippi-catfish-restaurants.html">Catfish</a>
+      <a href="/mississippi-eats/mississippi-poboys-oysters.html">Po'boys</a>
+      <a href="/mississippi-eats/cities/">Cities</a>
+      <a href="/mississippi-eats/explore/">Search</a>
+    </nav>
+  </header>
+  <div class="stripes" aria-hidden="true"><svg viewBox="0 0 1200 24" preserveAspectRatio="none" aria-hidden="true"><rect width="1200" height="24" fill="#f6f1e4"/><rect x="0" y="10.5" width="1200" height="3" fill="#00205b"/><circle cx="25.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="29.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="29.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="25.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="20.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="20.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="25.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="75.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="79.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="79.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="75.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="70.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="70.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="75.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="125.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="129.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="129.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="125.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="120.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="120.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="125.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="175.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="179.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="179.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="175.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="170.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="170.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="175.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="225.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="229.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="229.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="225.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="220.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="220.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="225.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="275.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="279.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="279.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="275.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="270.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="270.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="275.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="325.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="329.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="329.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="325.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="320.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="320.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="325.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="375.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="379.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="379.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="375.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="370.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="370.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="375.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="425.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="429.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="429.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="425.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="420.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="420.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="425.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="475.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="479.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="479.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="475.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="470.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="470.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="475.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="525.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="529.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="529.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="525.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="520.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="520.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="525.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="575.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="579.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="579.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="575.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="570.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="570.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="575.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="625.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="629.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="629.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="625.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="620.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="620.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="625.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="675.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="679.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="679.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="675.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="670.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="670.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="675.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="725.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="729.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="729.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="725.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="720.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="720.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="725.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="775.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="779.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="779.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="775.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="770.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="770.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="775.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="825.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="829.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="829.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="825.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="820.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="820.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="825.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="875.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="879.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="879.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="875.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="870.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="870.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="875.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="925.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="929.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="929.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="925.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="920.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="920.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="925.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="975.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="979.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="979.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="975.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="970.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="970.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="975.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="1025.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1029.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1029.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1025.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1020.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1020.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1025.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="1075.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1079.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1079.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1075.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1070.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1070.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1075.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="1125.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1129.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1129.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1125.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1120.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1120.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1125.0" cy="12" r="2.7" fill="#c9a84c"/><circle cx="1175.0" cy="7.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1179.1" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1179.1" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1175.0" cy="16.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1170.9" cy="14.3" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1170.9" cy="9.7" r="4.7" fill="#ffffff" stroke="#00205b" stroke-opacity=".35" stroke-width=".8"/><circle cx="1175.0" cy="12" r="2.7" fill="#c9a84c"/></svg></div>
+  <main id="main">
+  <section class="hero">
+    <p class="kicker">Mississippi Eats: Tamales, catfish & Gulf seafood for iPhone and iPad</p>
+    <h1>Mississippi restaurants, Delta tamales to Gulf oysters</h1>
+    <p class="lede">Looking for hot tamales in Greenville, catfish at Taylor Grocery, a po'boy on the Coast or comeback sauce in Jackson? Mississippi Eats starts with lists we checked place by place, adds the MICHELIN and James Beard honorees, and maps 7,362 restaurants, cafés, bars and bakeries in 293 Mississippi towns.</p>
+    <div class="cta-row"><a class="btn store-btn" href="mailto:nick@eatsranked.com?subject=Mississippi%20Eats%20early%20access&amp;body=Send%20me%20the%20TestFlight%20link."><span class="store-label">Ask for early access</span></a><a class="btn btn-ghost" href="/mississippi-eats/explore/">Search on the web</a><span class="pill store-note">No charge, no ads, no sign-in. The App Store release is on its way.</span></div>
+    <ul class="stats" aria-label="What's in the app">
+      <li><b>34</b><span>hand-checked places</span></li>
+      <li><b>14</b><span>MICHELIN &amp; James Beard</span></li>
+      <li><b>293</b><span>Mississippi towns</span></li>
+      <li><b>7,362</b><span>restaurants</span></li>
+    </ul>
+  </section>
+
+  <section id="what">
+    <h2>Built around how people here eat</h2>
+    <p class="sub">Star ratings won't tell you whose tamales still simmer in the Delta or where comeback sauce began. Mississippi Eats is organized the way people here eat: Delta hot tamales, catfish houses, po'boys and Gulf oysters, plate lunches and comeback sauce, each place checked in fall 2026 against a 2025–26 source. Apple Maps' live card supplies ratings, hours and photos.</p>
+  </section>
+
+  <section id="how">
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li class="step"><div class="n" aria-hidden="true">1</div><div><h3>Start with a craving.</h3><p>Delta hot tamales, Catfish houses, Po'boys & Gulf oysters, Plate lunches & fried chicken, Comeback sauce & fried pickles and MICHELIN and James Beard honors. Or type a name, a town, a street or a dish to search the 7,362 we list.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">2</div><div><h3>Find the closest one.</h3><p>Put the nearest first, narrow it to one town or one kind of food, or pan the map from the Delta to the Gulf Coast.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">3</div><div><h3>Head out.</h3><p>Check today's hours and photos on Apple Maps' card, call ahead, get directions, or save the place for the next trip.</p></div></li>
+    </ol>
+  </section>
+
+  <section id="screens">
+    <h2>Inside the app</h2>
+    <ul class="shots" tabindex="0" aria-label="Mississippi Eats app screenshots">
+      <li><picture><source srcset="/mississippi-eats/img/screen-home.webp" type="image/webp"><img src="/mississippi-eats/img/screen-home.png" alt="The Mississippi Eats home screen: a search box and guide cards for Delta Hot Tamales, Catfish Houses, Po&#x27;boys &amp; Gulf Oysters, Plate Lunches and more, each with its count of places." width="480" height="1043" loading="lazy" decoding="async"></picture><p>A guide for each Mississippi craving.</p></li><li><picture><source srcset="/mississippi-eats/img/screen-tamales.webp" type="image/webp"><img src="/mississippi-eats/img/screen-tamales.png" alt="The hand-checked Delta hot tamales list in Mississippi Eats, from Doe&#x27;s Eat Place in Greenville, with each place&#x27;s town." width="480" height="1043" loading="lazy" decoding="async"></picture><p>Delta hot tamales.</p></li><li><picture><source srcset="/mississippi-eats/img/screen-detail.webp" type="image/webp"><img src="/mississippi-eats/img/screen-detail.png" alt="Doe&#x27;s Eat Place in Mississippi Eats: its Greenville address, America&#x27;s Classic and hot tamale tags, a button for Apple Maps&#x27; ratings, hours and photos, Directions and Call buttons, a small map and the hand-checked notes." width="480" height="1043" loading="lazy" decoding="async"></picture><p>Each place, hand-checked notes and all.</p></li><li><picture><source srcset="/mississippi-eats/img/screen-map.webp" type="image/webp"><img src="/mississippi-eats/img/screen-map.png" alt="The Mississippi Eats map of Jackson&#x27;s Fondren, with pins for hand-checked and honored places and filter buttons for Mississippi picks and honors." width="480" height="1043" loading="lazy" decoding="async"></picture><p>The map, by guide.</p></li><li><picture><source srcset="/mississippi-eats/img/screen-catfish.webp" type="image/webp"><img src="/mississippi-eats/img/screen-catfish.png" alt="The hand-checked catfish houses list in Mississippi Eats, from Taylor Grocery to Jerry&#x27;s Catfish House." width="480" height="1043" loading="lazy" decoding="async"></picture><p>Catfish houses.</p></li>
+    </ul>
+  </section>
+  <section id="guides">
+    <h2>Mississippi food guides</h2>
+    <p class="sub">The app's lists with enough places have their own page here, free to read.</p>
+    <div class="grid2">
+      <a class="card gc gc-tamales" href="/mississippi-eats/mississippi-hot-tamales.html"><b>9</b><h3>Delta hot tamales</h3><p>9 hand-checked places, Greenville to Natchez.</p></a><a class="card gc gc-catfish" href="/mississippi-eats/mississippi-catfish-restaurants.html"><b>7</b><h3>Catfish houses</h3><p>7 hand-checked places, Taylor to the Coast.</p></a><a class="card gc gc-poboys" href="/mississippi-eats/mississippi-poboys-oysters.html"><b>6</b><h3>Po&#x27;boys &amp; Gulf oysters</h3><p>6 hand-checked places from Pascagoula to Pass Christian.</p></a><a class="card gc gc-plates" href="/mississippi-eats/mississippi-plate-lunches-fried-chicken.html"><b>9</b><h3>Plate lunches &amp; fried chicken</h3><p>9 hand-checked places for a blue-plate lunch.</p></a><a class="card gc gc-comeback" href="/mississippi-eats/mississippi-comeback-sauce.html"><b>4</b><h3>Comeback sauce &amp; fried pickles</h3><p>4 hand-checked places where they began.</p></a>
+      
+      <a class="card gc gc-honors" href="/mississippi-eats/mississippi-michelin-james-beard-restaurants.html"><b>14</b><h3>MICHELIN &amp; James Beard</h3><p>14 honored Mississippi restaurants.</p></a>
+      <a class="card" href="/mississippi-eats/mississippi-restaurant-inspections.html"><h3>Inspection grades</h3><p>What MSDH's A, B and C mean, and where to look.</p></a>
+    </div>
+  </section>
+
+  <section id="cities">
+    <h2>Tamales, catfish and more by town</h2>
+    <p class="sub">The towns with enough hand-checked or honored places for a page of their own. The <a href="/mississippi-eats/cities/">cities and towns index</a> sums up what's on each.</p>
+    <ul class="cities"><li><a href="/mississippi-eats/cities/jackson.html">Jackson</a></li><li><a href="/mississippi-eats/cities/oxford.html">Oxford</a></li></ul>
+  </section>
+
+  <section id="pricing">
+    <h2>Free, with no catch</h2>
+    <p class="sub">The app costs nothing, shows no ads and sells nothing inside, and there's no account to make. The lists ship inside the app, so they open right away and keep working when the signal drops out on a back road.</p>
+  </section>
+
+  <section id="privacy">
+    <h2>What stays on your phone</h2>
+    <p class="sub">Mississippi Eats collects nothing about you: no sign-in, no analytics, no ads. Location, if you turn it on, only puts the nearest places first, and your saved places are kept on the phone or iPad. The website has no cookies and no trackers. <a href="/mississippi-eats/privacy.html">The privacy policy</a> has the details.</p>
+  </section>
+
+  <section id="faq">
+    <h2>Questions</h2>
+    <details><summary>Is Mississippi Eats free?</summary><p>Completely: no price, no ads, no in-app purchases and no account to create. It&#x27;s an iPhone and iPad app on its way to the App Store, with no Android version yet; until it&#x27;s out, the web search here works in any browser.</p></details><details><summary>Where do the lists come from?</summary><p>Two kinds of source. The hot tamale, catfish, po&#x27;boy, plate lunch, comeback sauce and oldest-places lists are our own research from fall 2026, with a 2025 or 2026 source behind each place: Visit Mississippi&#x27;s own pages, the MICHELIN Guide or a dated local story. The wider directory of 7,362 restaurants starts from open map listings (Overture Maps), filtered to the kinds that matched an inspected business most often in MSDH&#x27;s records.</p></details><details><summary>Where are the Delta hot tamales?</summary><p>Our tamale list has 9 hand-checked places, from Doe&#x27;s Eat Place in Greenville, a James Beard America&#x27;s Classic, to Hicks&#x27; in Clarksdale, Solly&#x27;s in Vicksburg and Fat Mama&#x27;s in Natchez.</p></details><details><summary>How do I check a Mississippi restaurant&#x27;s inspection grade?</summary><p>The Mississippi State Department of Health grades every inspection A, B or C and posts the grade in the restaurant. The app shows MSDH&#x27;s latest grade on each place it matches, dated and labeled as MSDH&#x27;s own; it computes no grade. MSDH&#x27;s food facility search has every inspection.</p></details><details><summary>Does it show which places serve alcohol?</summary><p>No. The Department of Revenue&#x27;s alcohol permits are only searchable, and many counties and towns are dry or partly dry, so the app doesn&#x27;t say either way.</p></details><details><summary>Does it show ratings and reviews?</summary><p>Not from us. Tapping a place opens Apple Maps&#x27; own card inside the app, with Apple&#x27;s current ratings, hours, photos and directions. None of our lists is sorted by anyone&#x27;s rating.</p></details><details><summary>Does it need my location?</summary><p>No. Location only matters for putting the nearest places first. If you share it, it stays on your iPhone or iPad and never reaches us, and the app works fine without it. On this website, Near me reads your location inside your browser and nowhere else.</p></details><details><summary>A place has closed, or something&#x27;s wrong. How do I tell you?</summary><p>Write to nick@eatsranked.com with the place&#x27;s name, its town and what changed. Corrections ship with the next data update.</p></details>
+  </section>
+
+  <section id="download" class="final">
+    <h2>Find your next hot tamale</h2>
+    <p class="sub">The iPhone and iPad app is almost here, and it's free. Ask for early access.</p>
+    <div class="cta-row"><a class="btn store-btn" href="mailto:nick@eatsranked.com?subject=Mississippi%20Eats%20early%20access&amp;body=Send%20me%20the%20TestFlight%20link."><span class="store-label">Ask for early access</span></a></div>
+  </section>
+  </main>
+  <footer>
+    <nav aria-label="Footer">
+      <a href="/mississippi-eats/">Mississippi Eats app</a>
+      <a href="/mississippi-eats/explore/">Search Mississippi restaurants</a>
+      <a href="/mississippi-eats/mississippi-hot-tamales.html">Delta hot tamales</a>
+      <a href="/mississippi-eats/mississippi-catfish-restaurants.html">Catfish houses</a>
+      <a href="/mississippi-eats/mississippi-poboys-oysters.html">Po&#x27;boys &amp; Gulf oysters</a>
+      <a href="/mississippi-eats/mississippi-plate-lunches-fried-chicken.html">Plate lunches &amp; fried chicken</a>
+      <a href="/mississippi-eats/mississippi-comeback-sauce.html">Comeback sauce &amp; fried pickles</a>
+      <a href="/mississippi-eats/mississippi-michelin-james-beard-restaurants.html">MICHELIN &amp; James Beard</a>
+      <a href="/mississippi-eats/mississippi-restaurant-inspections.html">Inspection grades</a>
+      <a href="/mississippi-eats/cities/">Cities and towns</a>
+      <a href="/mississippi-eats/privacy.html">Privacy policy</a>
+      <a href="/mississippi-eats/terms.html">Terms of use</a>
+      <a href="mailto:nick@eatsranked.com">Email us</a>
+    </nav>
+    <p>Place data: hand-checked research by Mississippi Eats (fall 2026), from Visit Mississippi's own pages, Magnolia Tribune and other dated local stories and the MICHELIN Guide; MICHELIN Guide and James Beard Foundation honors, as facts; inspection grades as the Mississippi State Department of Health posts them ("Data are for informational purposes, not enforcement."); Overture Maps Foundation places (CDLA Permissive 2.0) and addresses (open address sources under permissive licenses, docs.overturemaps.org/attribution); map outlines © OpenStreetMap contributors, Overture Maps Foundation (ODbL). Not affiliated with or endorsed by the State of Mississippi, MSDH, the Department of Revenue, Visit Mississippi or any tourism office, any university, any restaurant or chain, the MICHELIN Guide or the James Beard Foundation. MICHELIN is a trademark of Michelin. James Beard Foundation and James Beard Award are trademarks of the James Beard Foundation. Places open and close, so check before you go.</p>
+    <p>© 2026 Mississippi Eats. Part of <a href="https://eatsranked.com/" rel="noopener">Eats Ranked</a>, restaurant apps state by state.</p>
+    <p>Created by <a href="https://work-with-nick.com/" rel="author">Nick Soderstrom</a>.</p>
+  </footer>
+</div>
+<script>
+  // Once the App Store listing exists, paste its URL here (looks like https://apps.apple.com/app/id123456789).
+  // Every button switches from "Ask for early access" to "Download on the App Store" automatically (then use Apple's badge artwork,
+  // see store_button() in scripts/make-site.py). Also fill in the apple-itunes-app meta tag in <head> on every page, and put the
+  // MobileApplication "offers" back in the landing page's JSON-LD (re-run scripts/make-site.py after editing it there).
+  var APP_STORE_URL = "";
+  if (APP_STORE_URL) {
+    document.querySelectorAll(".store-btn").forEach(function (b) { b.href = APP_STORE_URL; b.rel = "noopener"; });
+    document.querySelectorAll(".store-label").forEach(function (l) { l.textContent = "Download on the App Store"; });
+    document.querySelectorAll(".store-note").forEach(function (n) { n.textContent = "Free for iPhone and iPad."; });
+  }
+</script>
+</body>
+</html>

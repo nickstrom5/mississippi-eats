@@ -1,0 +1,398 @@
+{
+ "generated": "2026-11-06",
+ "domain": "https://nickstrom5.github.io/mississippi-eats",
+ "restaurants": 7362,
+ "places_incl_hidden": 8091,
+ "towns": 293,
+ "counties": 80,
+ "on_an_official_list": 5488,
+ "hand_checked_on_a_guide": 34,
+ "serves_alcohol_state_license": 0,
+ "guide_tamales": 9,
+ "guide_catfish": 7,
+ "guide_poboys": 6,
+ "guide_plates": 9,
+ "guide_comeback": 4,
+ "oldest": 1,
+ "honors": 14,
+ "michelin": {
+  "MICHELIN Recommended": 9,
+  "Bib Gourmand": 3
+ },
+ "james_beard": 6,
+ "americas_classics": 2,
+ "permits_updated": "2026-10-30",
+ "city_pages": {
+  "Jackson": {
+   "restaurants": 398,
+   "listed": 9,
+   "tamales": 1,
+   "catfish": 1,
+   "poboys": 1,
+   "plates": 2,
+   "comeback": 1,
+   "hon": 5,
+   "oldest": 1
+  },
+  "Oxford": {
+   "restaurants": 190,
+   "listed": 4,
+   "tamales": 0,
+   "catfish": 0,
+   "poboys": 0,
+   "plates": 1,
+   "comeback": 0,
+   "hon": 4,
+   "oldest": 0
+  }
+ },
+ "cities_without_a_page": {
+  "Ocean Springs": 2,
+  "Biloxi": 2,
+  "Gulfport": 1,
+  "Clarksdale": 2,
+  "Greenville": 2,
+  "Vicksburg": 3,
+  "Hattiesburg": 2,
+  "Natchez": 1,
+  "Tupelo": 0,
+  "Indianola": 2,
+  "Ridgeland": 2,
+  "Pass Christian": 1
+ },
+ "noindex_pages": [],
+ "web_app_data_bytes": {
+  "data/core.json": {
+   "raw": 558231,
+   "gzip": 129851
+  },
+  "data/detail-adams-county.json": {
+   "raw": 11448,
+   "gzip": 1956
+  },
+  "data/detail-alcorn-county.json": {
+   "raw": 9559,
+   "gzip": 1777
+  },
+  "data/detail-amite-county.json": {
+   "raw": 1405,
+   "gzip": 403
+  },
+  "data/detail-attala-county.json": {
+   "raw": 4197,
+   "gzip": 825
+  },
+  "data/detail-benton-county.json": {
+   "raw": 606,
+   "gzip": 259
+  },
+  "data/detail-bolivar-county.json": {
+   "raw": 10548,
+   "gzip": 1896
+  },
+  "data/detail-calhoun-county.json": {
+   "raw": 2374,
+   "gzip": 572
+  },
+  "data/detail-carroll-county.json": {
+   "raw": 549,
+   "gzip": 240
+  },
+  "data/detail-chickasaw-county.json": {
+   "raw": 3614,
+   "gzip": 772
+  },
+  "data/detail-choctaw-county.json": {
+   "raw": 918,
+   "gzip": 364
+  },
+  "data/detail-claiborne-county.json": {
+   "raw": 1410,
+   "gzip": 457
+  },
+  "data/detail-clarke-county.json": {
+   "raw": 2663,
+   "gzip": 624
+  },
+  "data/detail-clay-county.json": {
+   "raw": 4268,
+   "gzip": 1057
+  },
+  "data/detail-coahoma-county.json": {
+   "raw": 5921,
+   "gzip": 1272
+  },
+  "data/detail-copiah-county.json": {
+   "raw": 7712,
+   "gzip": 1369
+  },
+  "data/detail-covington-county.json": {
+   "raw": 5547,
+   "gzip": 987
+  },
+  "data/detail-desoto-county.json": {
+   "raw": 64414,
+   "gzip": 9473
+  },
+  "data/detail-forrest-county.json": {
+   "raw": 37052,
+   "gzip": 5391
+  },
+  "data/detail-franklin-county.json": {
+   "raw": 1013,
+   "gzip": 311
+  },
+  "data/detail-george-county.json": {
+   "raw": 7383,
+   "gzip": 1232
+  },
+  "data/detail-greene-county.json": {
+   "raw": 1254,
+   "gzip": 427
+  },
+  "data/detail-grenada-county.json": {
+   "raw": 6726,
+   "gzip": 1261
+  },
+  "data/detail-hancock-county.json": {
+   "raw": 20732,
+   "gzip": 2996
+  },
+  "data/detail-harrison-county.json": {
+   "raw": 110251,
+   "gzip": 14725
+  },
+  "data/detail-hinds-county.json": {
+   "raw": 69609,
+   "gzip": 10306
+  },
+  "data/detail-holmes-county.json": {
+   "raw": 1914,
+   "gzip": 497
+  },
+  "data/detail-humphreys-county.json": {
+   "raw": 1329,
+   "gzip": 429
+  },
+  "data/detail-itawamba-county.json": {
+   "raw": 5292,
+   "gzip": 1045
+  },
+  "data/detail-jackson-county.json": {
+   "raw": 58740,
+   "gzip": 8226
+  },
+  "data/detail-jasper-county.json": {
+   "raw": 1359,
+   "gzip": 465
+  },
+  "data/detail-jefferson-county.json": {
+   "raw": 829,
+   "gzip": 286
+  },
+  "data/detail-jefferson-davis-county.json": {
+   "raw": 1259,
+   "gzip": 403
+  },
+  "data/detail-jones-county.json": {
+   "raw": 20079,
+   "gzip": 3044
+  },
+  "data/detail-lafayette-county.json": {
+   "raw": 28280,
+   "gzip": 4575
+  },
+  "data/detail-lamar-county.json": {
+   "raw": 27895,
+   "gzip": 4122
+  },
+  "data/detail-lauderdale-county.json": {
+   "raw": 24238,
+   "gzip": 3848
+  },
+  "data/detail-lawrence-county.json": {
+   "raw": 2386,
+   "gzip": 689
+  },
+  "data/detail-leake-county.json": {
+   "raw": 4683,
+   "gzip": 926
+  },
+  "data/detail-lee-county.json": {
+   "raw": 36959,
+   "gzip": 5609
+  },
+  "data/detail-leflore-county.json": {
+   "raw": 8056,
+   "gzip": 1396
+  },
+  "data/detail-lincoln-county.json": {
+   "raw": 10192,
+   "gzip": 1676
+  },
+  "data/detail-lowndes-county.json": {
+   "raw": 17083,
+   "gzip": 2836
+  },
+  "data/detail-madison-county.json": {
+   "raw": 51547,
+   "gzip": 7524
+  },
+  "data/detail-marion-county.json": {
+   "raw": 8792,
+   "gzip": 1441
+  },
+  "data/detail-marshall-county.json": {
+   "raw": 6051,
+   "gzip": 1245
+  },
+  "data/detail-monroe-county.json": {
+   "raw": 9571,
+   "gzip": 1604
+  },
+  "data/detail-montgomery-county.json": {
+   "raw": 2703,
+   "gzip": 668
+  },
+  "data/detail-neshoba-county.json": {
+   "raw": 7737,
+   "gzip": 1364
+  },
+  "data/detail-newton-county.json": {
+   "raw": 3650,
+   "gzip": 827
+  },
+  "data/detail-noxubee-county.json": {
+   "raw": 1447,
+   "gzip": 485
+  },
+  "data/detail-oktibbeha-county.json": {
+   "raw": 16170,
+   "gzip": 2847
+  },
+  "data/detail-panola-county.json": {
+   "raw": 8430,
+   "gzip": 1635
+  },
+  "data/detail-pearl-river-county.json": {
+   "raw": 17874,
+   "gzip": 2742
+  },
+  "data/detail-perry-county.json": {
+   "raw": 1909,
+   "gzip": 468
+  },
+  "data/detail-pike-county.json": {
+   "raw": 13293,
+   "gzip": 2216
+  },
+  "data/detail-pontotoc-county.json": {
+   "raw": 7425,
+   "gzip": 1305
+  },
+  "data/detail-prentiss-county.json": {
+   "raw": 6107,
+   "gzip": 1177
+  },
+  "data/detail-quitman-county.json": {
+   "raw": 1050,
+   "gzip": 347
+  },
+  "data/detail-rankin-county.json": {
+   "raw": 58088,
+   "gzip": 8652
+  },
+  "data/detail-scott-county.json": {
+   "raw": 6733,
+   "gzip": 1255
+  },
+  "data/detail-sharkey-county.json": {
+   "raw": 609,
+   "gzip": 260
+  },
+  "data/detail-simpson-county.json": {
+   "raw": 6335,
+   "gzip": 1290
+  },
+  "data/detail-smith-county.json": {
+   "raw": 1366,
+   "gzip": 412
+  },
+  "data/detail-stone-county.json": {
+   "raw": 6555,
+   "gzip": 1215
+  },
+  "data/detail-sunflower-county.json": {
+   "raw": 5389,
+   "gzip": 1131
+  },
+  "data/detail-tallahatchie-county.json": {
+   "raw": 1667,
+   "gzip": 446
+  },
+  "data/detail-tate-county.json": {
+   "raw": 6467,
+   "gzip": 1272
+  },
+  "data/detail-tippah-county.json": {
+   "raw": 5795,
+   "gzip": 1115
+  },
+  "data/detail-tishomingo-county.json": {
+   "raw": 5804,
+   "gzip": 1073
+  },
+  "data/detail-tunica-county.json": {
+   "raw": 4991,
+   "gzip": 1036
+  },
+  "data/detail-union-county.json": {
+   "raw": 8055,
+   "gzip": 1589
+  },
+  "data/detail-walthall-county.json": {
+   "raw": 3325,
+   "gzip": 683
+  },
+  "data/detail-warren-county.json": {
+   "raw": 18315,
+   "gzip": 2812
+  },
+  "data/detail-washington-county.json": {
+   "raw": 11986,
+   "gzip": 2158
+  },
+  "data/detail-wayne-county.json": {
+   "raw": 5860,
+   "gzip": 1039
+  },
+  "data/detail-webster-county.json": {
+   "raw": 2599,
+   "gzip": 650
+  },
+  "data/detail-wilkinson-county.json": {
+   "raw": 1519,
+   "gzip": 474
+  },
+  "data/detail-winston-county.json": {
+   "raw": 3390,
+   "gzip": 723
+  },
+  "data/detail-yalobusha-county.json": {
+   "raw": 3195,
+   "gzip": 784
+  },
+  "data/detail-yazoo-county.json": {
+   "raw": 6611,
+   "gzip": 1160
+  },
+  "data/ids.json": {
+   "raw": 95734,
+   "gzip": 55789
+  },
+  "data/ms_shapes.json": {
+   "raw": 68186,
+   "gzip": 16053
+  }
+ }
+}

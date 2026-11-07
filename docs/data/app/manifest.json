@@ -1,0 +1,27 @@
+{
+ "schema": 1,
+ "version": "2026-11-06.1",
+ "records_through": "2026-11-06",
+ "published": "2026-11-07T02:57:25Z",
+ "min_app_build": 1,
+ "files": {
+  "detail-mississippi": {
+   "path": "detail-mississippi-269f29ff3560.json",
+   "sha256": "269f29ff3560c36713a09ae9e188fac498378b7388885e0e929a5d77714c407f",
+   "bytes": 1394452,
+   "rows": 7973
+  },
+  "places": {
+   "path": "places-848e46f08093.json",
+   "sha256": "848e46f080933dee73f484a81bc135899494f6075938d551774696a53453fa97",
+   "bytes": 1415984,
+   "rows": 8091
+  }
+ },
+ "counts": {
+  "places": 8091,
+  "files": 2,
+  "bytes": 2810436,
+  "restaurants": 7362
+ }
+}
